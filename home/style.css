@@ -5,7 +5,7 @@ body {
 
 .Container {
     display: flex;
-    max-width: 576px;
+    max-width: 476px;
     background-color: #161717;
     color: white;
     
@@ -210,18 +210,24 @@ Button {
 
 .Username-Ui {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     max-width: 100%;
     padding: 8px 16px;
     border-radius: 20px;
-    
     margin: 0px 16px;
+    
+    /* margin: 0px 16px; */
     /* gap: 10px; */
 }
 
 .Username-Ui:hover {
     background-color: #2d2e2e;
+}
+
+.DPI {
+    background-color: #21c063;
+    width: 20%;
 }
 
 .Dp {
@@ -246,19 +252,14 @@ Button {
     text-overflow: ellipsis;
 }
 
-.Time {
-    height: 60px;
-    padding: 10px;
-    margin: 5px;
-}
 
 .Profile {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 310px;
+    width: 70%;
     height: 60px;
-    margin-right: 16px;
+    /* margin-right: 16px; */
    
 
     /* padding: 10px; */
@@ -299,11 +300,12 @@ p {
 }
 
 .status{
+    width: 20%;
   display:flex;
   flex-direction: column;
   align-items:center;
   gap:10px;
-  padding:10px 8px;
+  /* padding:10px 8px; */
 }
 
 .time{
