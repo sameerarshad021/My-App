@@ -657,9 +657,9 @@ a:active {
   .Right {
     width: 100%;
     max-width: 100%;
-    margin: 0px 16px ;
-    margin-left: 16px;
-    margin-right: 16px;
+    margin: 0px 4px ;
+    margin-left: 4px;
+    margin-right: 4px;
     
     
     border: none;     /* agar border remove karna ho */
