@@ -256,7 +256,7 @@ Button {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 310px;
+    max-width: 310px;
     height: 60px;
     margin-right: 16px;
    
