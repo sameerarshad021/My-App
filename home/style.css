@@ -577,7 +577,7 @@ a:active {
 }
 
 .Nav {
-    background-color: #21c063;
+    /* background-color: #21c063; */
     display: flex;
     max-width: 100%;
     justify-content: space-between;
@@ -658,9 +658,9 @@ a:active {
   .Right {
     width: 100%;
     max-width: 100%;
-    margin: 0px 16px ;
+    /* margin: 0px 16px ;
     margin-left: 16px;
-    margin-right: 16px;
+    margin-right: 16px; */
     
     
     border: none;     /* agar border remove karna ho */
