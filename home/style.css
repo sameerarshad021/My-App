@@ -654,8 +654,8 @@ a:active {
     width: 100%;
     max-width: 100%;
     margin-left: 0;   /* agar desktop me sidebar ki wajah se margin hai */
-    padding-left: 0;  /* optional */
-    padding-right: 0; /* optional */
+    
+    
     border: none;     /* agar border remove karna ho */
 }
 
