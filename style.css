@@ -4,15 +4,20 @@
     box-sizing: border-box;
 }
 
+body {
+  background-color: #161717;
+  color: white;
+}
+
 
  @font-face {
  font-family: 'My';
  src: url('Fonts/Feeling\ Lovely.ttf');}
-
+/* 
 body {
     background-color:  #f0f2f5;
     font-family: Arial, Helvetica, sans-serif
-}
+} */
 
 .container {
     display: flex;
@@ -46,7 +51,7 @@ body {
 }
 
 .Login-Field {
-    background-color: white;
+    background-color: #292c2c;
     width: 100%;
     padding: 20px;
     border-radius: 8px;
