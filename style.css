@@ -1,0 +1,211 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+ @font-face {
+ font-family: 'My';
+ src: url('Fonts/Feeling\ Lovely.ttf');}
+
+body {
+    background-color:  #f0f2f5;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: left 112px;
+    margin: right 112px;
+    min-height: 100vh;
+    padding: 40px;
+    gap: 80px;
+}
+
+.left h1 {
+    color: #1877F2;
+    font-size: 50pt;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+
+.left p {
+    font-size: 22pt;
+    font-weight: 500;
+    max-width:500px;
+}
+
+.right {
+    display: flex;
+    width: 380px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Login-Field {
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.1);;
+    /* margin: 20px; */
+}
+
+input{
+    width: 100%;
+    border-radius: 8px;
+    font-size: 12pt;
+    font-weight: 400;
+    padding: 16px;
+    margin-bottom: 8px;
+    /* border: none; */
+}
+
+button {
+    width: 100%;
+    padding: 16px;
+    background-color: #1877F2;
+    color: white;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border: none;
+    font-size: 14pt;
+    font-weight: 700;
+    border-radius: 8px;
+}
+
+/* .Login {
+    width: 100%;
+    padding: 16px;
+    background-color: #1877F2;
+    color: white;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border: none;
+    font-size: 14pt;
+    font-weight: 700;
+    border-radius: 8px;
+} */
+
+button:hover {
+    background-color: #2382fd;
+}
+
+.forgot {
+    width: 100%;
+   
+    text-align: center;
+    margin-bottom: 8px;
+    padding: 14px;
+}
+
+.forgot a {
+         color: #1877f2;
+  text-decoration: none;
+}
+
+.forgot a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border-top: black;
+    line-height: 1px;
+    margin: 8px 0;
+    /* border: none; */
+}
+
+.New-account {
+    width: 60%;
+    background: #42b72a;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 16px 16px;
+  font-weight: bold;
+  font-size: 12pt;
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.New-account:hover {
+    background-color: #3b9b28;
+}
+
+.Create-Page {
+    margin-top: 32px;
+    text-align: center;
+    font-size: 12pt;
+   
+
+}
+
+.fade-out {
+  animation: fadeOut 0.5s forwards;
+}
+
+@keyframes fadeOut {
+  0% { opacity: 1; transform: scale(1); }
+  100% { opacity: 0; transform: scale(0.97); }
+}
+
+.Create-Page a {
+     color: black;
+}
+
+@media (max-width: 900px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+  }
+
+  .left h1 {
+    font-size: 60px;
+  }
+
+  .left p {
+    font-size: 22px;
+    margin: 0 auto;
+  }
+}
+
+/* Mobile */
+@media (max-width: 500px) {
+  .container {
+    padding: 20px;
+  }
+
+  .left h1 {
+    font-size: 46px;
+  }
+
+  .left p {
+    font-size: 18px;
+  }
+
+  .right {
+    width: 100%;
+    max-width: 360px;
+  }
+
+  .login-box {
+    padding: 16px;
+  }
+
+  .Login-btn {
+    font-size: 16px;
+  }
+
+  .Create-New {
+    font-size: 15px;
+  }
+
+  .Create-page {
+    font-size: 13px;
+  }
+}

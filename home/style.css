@@ -1,0 +1,688 @@
+body {
+    margin: 0px;
+    background-color: #161717;
+}
+
+.Container {
+    display: flex;
+    max-width: 576px;
+    background-color: #161717;
+    color: white;
+    
+   
+}
+
+.Right {
+    max-width: 100%;
+    background-color: #161717;
+    color: white;
+    
+    margin-left: 67px;
+    border: #2d2e2e 2px solid;
+}
+
+.Left {
+    background-color: #1d1f1f;
+    display: flex;
+    flex-direction: column;
+    max-width: 70px;
+    max-height: 612px;
+    padding: 14px;
+    justify-content: space-between ;
+    position: fixed;       
+    top: 0;                 
+    left: 0;     
+    height: 100vh;   
+    
+}
+
+.icon-link {
+    background-color: #282a2a;
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+    /* padding: 5px; */
+}
+
+.icon-links {
+    
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+    /* padding: 5px; */
+}
+
+.icon-link img {
+    width: 15px;
+    height: 15px;
+}
+
+.Menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.Left img {
+    width: 20px;
+    margin: 10px 0px;
+}
+
+.Setting {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.UserPro {
+   width: 20px; 
+   height: 20px;
+   border-radius: 50px;
+}
+
+.Header {
+    /* background-color: #ccc; */
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 16px; */
+    /* margin: 0px 16px; */
+}
+
+.Heading div {
+    height: 40px;
+}
+
+.Vector {
+    height: 20px;
+    padding: 16px;
+}
+
+h1 {
+    /* background-color: aquamarine; */
+    font-size: 25px;
+    font-weight: 700;
+    padding: 0px 16px
+}
+
+.Navbar {
+
+}
+
+.Search-Bar {
+    background-color: #2d2e2e;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    position: relative;
+    max-width: 100%;
+    padding: 0px 16px;
+    margin: 10px 32px;
+    color: white;
+    border-radius: 100px;
+
+}
+
+.Search-Input::placeholder {
+    color: #a9aaaa;
+}
+
+.Search-Icon i {
+    color: #a9aaaa;
+    font-size: 14px; /* optional */
+}
+
+
+
+
+.Search-Icon {
+    
+    width: 30px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Search-Input {
+    background-color: transparent;
+    width: 100%;
+    height: 40px;
+    color: white;
+    padding: 16px;
+
+    border: none;
+    outline: none !important;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    
+    
+}
+
+.Button1 {
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    padding: 16px;
+}
+
+Button {
+    width: auto;
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    background: transparent;
+    color: #a9aaaa; 
+    padding: 8px 16px; 
+    cursor: pointer;
+    padding: 8px 16px;
+    height: 40px;
+    /* margin: 16px; */
+    text-align: center;
+    border-radius: 100px;
+    color: white;
+}
+
+.All {
+    background-color: #103529;
+    
+}
+
+.Unread , .Group , .favoraite {
+    border: #a9aaaa 2px solid !important ;
+}
+
+.Ulta {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.Username-Ui {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    padding: 8px 16px;
+    border-radius: 20px;
+    
+    margin: 0px 16px;
+    /* gap: 10px; */
+}
+
+.Username-Ui:hover {
+    background-color: #2d2e2e;
+}
+
+.Dp {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 10px 0px;
+    margin: 5px 0px;
+    margin-right: 16px;
+}
+
+.Vector {
+    /* height: 16px;
+    color: white; */
+}
+
+.User {
+    flex: 1;
+    min-width: 0;          /* MOST IMPORTANT */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.Time {
+    height: 60px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.Profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 310px;
+    height: 60px;
+    margin-right: 16px;
+   
+
+    /* padding: 10px; */
+    /* margin: 5px; */
+}
+
+.Dp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}
+
+h2 {
+    font-size: 14pt;
+    font-weight: 600;
+    height: 15px;
+    
+    /* margin: 16px 0px; */
+}
+
+p {
+    font-size: 10pt;
+    font-weight: 400;
+    height: 15px;
+    /* margin: 16px 0px; */
+}
+
+.New {
+    background-color: #21c063;
+    border-radius: 100px;
+    width: 10px;
+    height: 10px;
+    padding: 10px;
+    text-align: center;
+    color: #000;
+}
+
+.status{
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  gap:10px;
+  padding:10px 8px;
+}
+
+.time{
+  color: var(--green-light);
+  font-weight:600;
+  font-size:12px;
+  letter-spacing:0.2px;
+  /* text-shadow: 0 1px 0 rgba(0,0,0,0.6); */
+}
+
+.badge{
+  position:relative;
+  width:24px;
+  height:24px;
+  min-width:24px;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background-color: #21c063;
+  /* background: linear-gradient(145deg, var(--green-light), #2fd86a 60%); */
+  box-shadow:
+    0 6px 12px rgba(0,0,0,0.35),   /* drop shadow */
+    inset 0 1px 0 rgba(255,255,255,0.25); /* shiny effect */
+  color:#292929;
+  font-weight:700;
+  font-size:12px;
+  line-height:1;
+  user-select:none;
+}
+
+.badge .count{
+  z-index:2;
+  transform: translateY(-1px); /* small visual centering */
+}
+
+/* Button hover/focus/active */
+.Button1 button:hover,
+.Button1 button:focus,
+.Button1 button:active {
+    background-color: #282a2a;
+}
+
+/* ================= ANCHORS ================= */
+a {
+    color: #a9aaaa;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+a:hover,
+a:focus,
+a:active {
+    background-color: #282a2a; /* Hover for anchor */
+    color: white; /* optional text change on hover */
+}
+
+/* ================= ICONS ================= */
+.icon-link:hover,
+.icon-links:hover {
+    background-color: #2d2e2e;
+}
+
+/* Icon hover effect (Font Awesome / SVG) */
+.icon-link:hover img,
+.icon-links:hover img,
+.icon-link:hover i,
+.icon-links:hover i {
+    filter: brightness(0) saturate(100%) invert(75%) sepia(0%) saturate(0%) hue-rotate(180deg) brightness(100%) contrast(100%);
+}
+
+/* ================= SEARCH BAR ================= */
+.Search-Bar:hover,
+.Search-Input:focus {
+    border: 1px solid #21c063; /* optional highlight */
+    box-shadow: 0 0 6px rgba(33, 192, 99, 0.3);
+}
+
+/* Search icon on hover */
+.Search-Bar:hover .Search-Icon i {
+    color: #21c063;
+}
+
+/* ================= BADGE ================= */
+.badge:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255,255,255,0.25);
+}
+
+/* ================= INPUT ================= */
+.Search-Input:focus {
+    outline: none !important;
+    box-shadow: 0 0 4px rgba(33, 192, 99, 0.5);
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1d1f1f;
+    position: fixed;
+    max-width: 70px;
+    height: 612px;
+    padding: 16px;
+    z-index: 9999;
+}
+
+.sidebar-list {
+    /* background-color: #21c063; */
+    list-style:none;
+    padding:0;
+    margin:0;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    
+}
+
+.icon-btn , .icon-btn1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:transparent;
+    width: 35px;
+    height: 35px;
+    border:0;
+    padding:10px;
+    border-radius:50px;
+    cursor:pointer;
+    position:relative;
+}
+
+.icon-btn1 {
+    background-color: #282a2a;
+}
+
+.icon-btn img{
+    border-radius: 50px;
+}
+
+.icon , img{
+  width:26px;
+  height:26px;
+  stroke:white;
+  stroke-width:1.5;
+  fill:none;
+}
+
+.icon-btn:hover{
+  background:rgba(255,255,255,0.05);
+}
+
+.icon-btn1:hover {
+   background:rgba(255,255,255,0.05); 
+}
+
+/* Tooltip */
+.tooltip{
+  position:absolute;
+  left:40px;
+  top:50%;
+  transform:translateY(-50%);
+  background:#0b1113;
+  color:var(--muted);
+  padding:6px 10px;
+  border-radius:8px;
+  opacity:0;
+  white-space:nowrap;
+  transition:opacity .15s;
+  z-index: 9999;
+}
+
+.icon-btn:hover .tooltip{
+  opacity:1;
+}
+
+.icon-btn1:hover .tooltip {
+   opacity:1; 
+}
+
+/* Main Content */
+.main{
+  /* margin-left:120px;
+  padding:20px; */
+}
+
+.menu-container {
+  position: relative;
+  /* display: inline-block; */
+  /* z-index: 999999; */
+}
+
+/* Hide checkbox */
+#menuToggle {
+  display: none;
+}
+
+/* 3 dots button */
+.three-dots {
+
+  cursor: pointer;
+  position: relative;
+}
+
+.Image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    /* background-color: #0b1113; */
+}
+
+.Image:hover {
+    background-color: #1d1f1f;
+}
+
+.Nav-right img {
+    width: 20px;
+    height: 20px;
+    
+    
+}
+
+/* Show tooltip on hover */
+.three-dots:hover .hover-menu {
+  display: block;
+}
+
+
+/* Main click menu */
+.click-menu {
+   position: absolute;
+    top: 50px;              /* same height as hover-menu */
+    left: 50%;
+    transform: translateX(-80%); /* horizontal center like hover-menu */
+    width: 160px;
+    background: #1f1f1f;
+    border-radius: 10px;
+    display: none;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+    padding: 10px 0;
+    z-index: 9999;
+}
+
+.click-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.click-menu ul li {
+  padding: 12px 15px;
+  color: white;
+  cursor: pointer;
+  border-bottom: 1px solid #333;
+}
+
+.click-menu ul li:hover {
+  background: #333;
+}
+
+/* Show menu when checkbox checked */
+#menuToggle:checked ~ .click-menu {
+  display: block;
+}
+
+.Nav {
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 16px;
+}
+
+.Nav-right {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    margin: 0px 16px;
+    gap: 15px;
+}
+
+.icon-box {
+    position: relative;
+    /* display: inline-block; */
+}
+
+.hover-menu {
+   position: absolute;
+    top: 35px;              /* vertical alignment */
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+    background: #333;
+    color: white;
+    padding: 5px 10px;
+    font-size: 13px;
+    border-radius: 6px;
+    white-space: nowrap;
+    z-index: 9999;
+}
+
+.icon-box:hover .hover-menu {
+    display: block;
+}
+
+/* ------------------------
+   Mobile Bottom Bar
+-------------------------*/
+.bottom-nav {
+
+  display: none;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  background-color: #161717;
+  
+  
+}
+
+.nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 25%;
+    height: 80px;
+    font-size: 12pt;
+
+}
+
+/* ------------------------
+   MOBILE VERSION
+-------------------------*/
+@media (max-width: 768px) {
+
+  .sidebar {
+    display: none; /* hide sidebar */
+  }
+
+  .Right {
+    width: 100%;
+    max-width: 100%;
+    margin-left: 0;   /* agar desktop me sidebar ki wajah se margin hai */
+    padding-left: 0;  /* optional */
+    padding-right: 0; /* optional */
+    border: none;     /* agar border remove karna ho */
+}
+
+  .bottom-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  background-color: #161717;
+  }
+
+  .bottom-nav .nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 25%;
+    height: 80px;
+    font-size: 12pt;
+  }
+
+  .bottom-nav .icon {
+    font-size: 22px;
+  }
+}
