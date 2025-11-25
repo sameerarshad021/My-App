@@ -653,7 +653,8 @@ a:active {
   .Right {
     width: 100%;
     max-width: 100%;
-    margin-left: 0;   /* agar desktop me sidebar ki wajah se margin hai */
+    margin: 0px 16px ;
+    /* margin-left: 0;   agar desktop me sidebar ki wajah se margin hai */
     
     
     border: none;     /* agar border remove karna ho */
