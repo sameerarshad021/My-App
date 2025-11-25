@@ -577,7 +577,6 @@ a:active {
 }
 
 .Nav {
-    /* background-color: #21c063; */
     display: flex;
     max-width: 100%;
     justify-content: space-between;
