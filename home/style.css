@@ -654,10 +654,15 @@ a:active {
     width: 100%;
     max-width: 100%;
     margin: 0px 16px ;
-    /* margin-left: 0;   agar desktop me sidebar ki wajah se margin hai */
+    margin-left: 16px;
+    margin-right: 16px;
     
     
     border: none;     /* agar border remove karna ho */
+}
+
+.Right .Profile {
+    max-width: 150px;
 }
 
   .bottom-nav {
