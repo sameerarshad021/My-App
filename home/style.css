@@ -226,10 +226,10 @@ Button {
     background-color: #2d2e2e;
 }
 
-.DPI {
+/* .DPI {
     background-color: #21c063;
     width: 20%;
-}
+} */
 
 .Dp {
     width: 50px;
@@ -258,7 +258,7 @@ Button {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    max-width: 82%;
     height: 60px;
     /* margin-right: 16px; */
    
@@ -397,10 +397,10 @@ a:active {
 }
 
 /* ================= INPUT ================= */
-.Search-Input:focus {
+/* .Search-Input:focus {
     outline: none !important;
     box-shadow: 0 0 4px rgba(33, 192, 99, 0.5);
-}
+} */
 
 .sidebar{
     display: flex;
@@ -624,11 +624,13 @@ a:active {
 -------------------------*/
 .bottom-nav {
 
-  display: none;
+  display: flex;
   justify-content: center;
   align-items: center;
   max-width: 100%;
   background-color: #161717;
+  gap: 50px;
+  padding-right: 10px;
   
   
 }
